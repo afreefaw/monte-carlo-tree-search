@@ -5,7 +5,7 @@ Implementation of Monte Carlo Tree Search (MCTS) in python, with a playable conn
 
 MCTS was notably used (amongst many other techniques) by Google Deepmind's AlphaGo program, which defeated celebrated professional Go player Lee Sedol in 2016.
 
-MCTS is an algorithm for choosing an action in a simulatable game or environemnt that has multiple choices as well as "rewards" specified for different outcomes at the end of the game / environment. Each turn it explores a decision tree using a combination of tree search, monte carlo simulation, and an exploration strategy to prrioritize which nodes to investigate most thoroughly.
+MCTS is an algorithm for choosing an action in a simulatable game or environemnt that has multiple choices as well as "rewards" specified for different outcomes at the end of the game / environment. Each turn it explores a decision tree using a combination of tree search, monte carlo simulation, and an exploration strategy to prioritize which nodes to investigate most thoroughly.
 
 MCTS is effective for decision trees that are wide (many actions) but can struggle with trees that are deep (many turns / time steps).
 
